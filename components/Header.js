@@ -44,7 +44,7 @@ export default function Header() {
       <div className="bg-[#1a3a2a] text-white py-2 hidden md:block">
         <div className="container mx-auto px-4 flex justify-between items-center text-sm">
           <div className="flex items-center gap-6">
-            <a href="tel:+919173684333" className="flex items-center gap-2 hover:text-gray-300 transition-colors">
+            <a href="tel:+919274822527" className="flex items-center gap-2 hover:text-gray-300 transition-colors">
               <Phone className="w-4 h-4" />
               +91 92748 22527
             </a>

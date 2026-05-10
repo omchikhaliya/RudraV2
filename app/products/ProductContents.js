@@ -167,7 +167,7 @@ export default function ProductsContent() {
                   <p className="text-xs text-white/70 mb-1">Need help choosing?</p>
                   <p className="font-bold text-sm mb-3">Talk to our experts</p>
                   <a
-                    href="tel:+919173684333"
+                    href="tel:+919274822527"
                     className="flex items-center justify-center gap-2 bg-[#EDE8D0] text-gray-700 text-sm px-4 py-2 rounded font-semibold hover:bg-white transition-colors"
                   >
                     <Phone className="w-4 h-4" />
@@ -317,7 +317,7 @@ export default function ProductsContent() {
                   Get a Quote
                 </Link>
                 <a
-                  href="tel:+919173684333"
+                  href="tel:+919274822527"
                   className="flex-1 border-2 border-[#1a3a2a] text-[#1a3a2a] text-sm font-semibold py-3 rounded-lg text-center hover:bg-[#1a3a2a] hover:text-white transition-colors"
                 >
                   Call Now

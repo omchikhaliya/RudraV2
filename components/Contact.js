@@ -92,7 +92,7 @@ export default function Contact() {
                   </div>
                   <div>
                     <h4 className="text-white font-semibold mb-1">Phone</h4>
-                    <a href="tel:+919173684333" className="text-gray-300 hover:text-gray-100 transition-colors block">
+                    <a href="tel:+919274822527" className="text-gray-300 hover:text-gray-100 transition-colors block">
                     +91 92748 22527
                     </a>
                   </div>
