@@ -16,9 +16,9 @@ const openSans = Open_Sans({
 })
 
 export const metadata = {
-  title: 'Rudra Brass Industries | Manufacturer and Exporter of Brass Cable Gland & Accessories',
-  description: 'Leading manufacturer and exporter of high precision brass cable glands, cable gland accessories, and brass earthing parts from Jamnagar, Gujarat, India.',
-  keywords: 'brass cable gland, cable gland accessories, brass earthing parts, cable lugs, brass manufacturer, Jamnagar',
+  title: 'Rudra Metal | Manufacturer and Supplier of Metal Products & Accessories',
+  description: 'Leading manufacturer and supplier of high precision Hardware products, Brass components and Accessories from Jamnagar, Gujarat, India.',
+  keywords: 'Hardware Products, Brackets, Hinges, Tower Bolt, Door Handle, Brass components, Brass Items, SS Items, Aluminium Items, Jamnagar',
 }
 
 export default function RootLayout({ children }) {
