@@ -11,18 +11,20 @@ const quickLinks = [
 ]
 
 const products = [
-  { name: 'Brass Cable Glands', href: '/products?category=brass-cable-glands' },
-  { name: 'Cable Gland Accessories', href: '/products?category=cable-glands-accessories' },
-  { name: 'Cable Lugs & Connectors', href: '/products?category=cable-lugs-connectors' },
-  { name: 'Brass Earthing Parts', href: '/products?category=brass-earthing-parts' },
-  { name: 'Cable Gland Kits', href: '/products?category=cable-gland-kits' },
+  { name: 'Butt Hinges', href: '/products?category=butt-hinges' },
+  { name: 'Parlament', href: '/products?category=parlament' },
+  { name: 'F-Bracket', href: '/products?category=f-bracket' },
+  { name: 'Tower Bolt', href: '/products?category=tower bolt' },
+  { name: 'Gate Hook', href: '/products?category=gate hook' },
+  { name: 'Door Handle', href: '/products?category=door handle' },
+  {name: 'Brass Components', href: '/products?category=others'},
 ]
 
 const socialLinks = [
-  { icon: Facebook, href: '#', label: 'Facebook' },
-  { icon: Twitter, href: '#', label: 'Twitter' },
-  { icon: Linkedin, href: '#', label: 'LinkedIn' },
-  { icon: Instagram, href: '#', label: 'Instagram' },
+  { icon: Facebook, href: 'https://www.facebook.com/share/18AmkzNTPv', label: 'Facebook' },
+  // { icon: Twitter, href: '#', label: 'Twitter' },
+  { icon: Linkedin, href: 'https://www.linkedin.com/in/rudra-metal-b185bb402?utm_source=share_via&utm_content=profile&utm_medium=member_android', label: 'LinkedIn' },
+  { icon: Instagram, href: 'https://www.instagram.com/rudra__metal?igsh=MTg4cGQ3cTlqNHlneg==', label: 'Instagram' },
 ]
 
 const MAPS_EMBED_URL = "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3688.4174918902995!2d70.05474557462095!3d22.41330687960545!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39576b4998d68ad5%3A0x3fb97fb4ab19ea19!2s383%2C%20Patel%20Chowk%20Rd%2C%20G.I.D.C.%20Phase%202%2C%20GIDC%20Phase-2%2C%20Dared%2C%20Jamnagar%2C%20Gujarat%20361012!5e0!3m2!1sen!2sin!4v1777813385540!5m2!1sen!2sin"
@@ -55,8 +57,8 @@ export default function Footer() {
               />
             </Link>
             <p className="text-gray-300 mb-6 leading-relaxed">
-              A prominent manufacturer specializing in high-quality cable glands and electrical 
-              accessories for industrial applications since 1991.
+              A prominent manufacturer specializing in high-quality metal products and
+              accessories for industrial applications since 2024.
             </p>
             <div className="flex gap-3">
               {socialLinks.map((social, index) => (

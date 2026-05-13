@@ -62,7 +62,7 @@ export default function Products() {
         <div className="text-center mb-12">
           <p className="text-gray-700 font-semibold text-lg mb-2">Our Products</p>
           <h2 className="text-3xl md:text-4xl font-bold text-[#1a3a2a] mb-4 text-balance">
-            Heavy-Duty Brass Brackets, Hinges & Accessories
+            Heavy-Duty Metal Products & Accessories
           </h2>
           <div className="w-24 h-1 bg-gray-700 mx-auto" />
         </div>

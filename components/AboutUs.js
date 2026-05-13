@@ -71,10 +71,8 @@ export default function AboutUs() {
             <div className="w-24 h-1 bg-[#EDE8D0] mb-6" />
             
             <p className="text-gray-300 mb-6 leading-relaxed">
-              Rudra Brass Industries is a prominent manufacturer specializing in high-quality cable glands 
-              and electrical accessories for a wide range of industrial applications. Founded in 1991, 
-              we bring over 33 years of expertise in brass casting, and since 2004, we have expanded into 
-              manufacturing, providing reliable solutions trusted by industries worldwide.
+              Rudra metal is a prominent manufacturer specializing in high-quality metal products and accessories for a wide range of industrial applications. Founded in 2024, 
+              we bring over 2 years of expertise in product manufacturing and supplying.
             </p>
             
             <p className="text-gray-300 mb-8 leading-relaxed">
@@ -125,7 +123,7 @@ export default function AboutUs() {
               
               {/* Floating Badge */}
               <div className="absolute -bottom-6 -left-6 bg-[#EDE8D0] text-gray-700 p-6 rounded-lg shadow-xl">
-                <p className="text-4xl font-bold">33+</p>
+                <p className="text-4xl font-bold">2+</p>
                 <p className="text-sm font-medium">Years of Excellence</p>
               </div>
               

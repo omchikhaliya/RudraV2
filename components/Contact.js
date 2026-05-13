@@ -95,6 +95,9 @@ export default function Contact() {
                     <a href="tel:+919274822527" className="text-gray-300 hover:text-gray-100 transition-colors block">
                     +91 92748 22527
                     </a>
+                    <a href="tel:+919737158755" className="text-gray-300 hover:text-gray-100 transition-colors block">
+                    +91 97371 58755
+                    </a>
                   </div>
                 </div>
 

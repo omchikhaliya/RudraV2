@@ -32,12 +32,12 @@ const values = [
   {
     icon: Settings,
     title: 'Advanced Technology',
-    description: 'Our state-of-the-art CNC machining centres, automatic lathes, and computerised testing equipment ensure precision down to the micron level.',
+    description: 'Our state-of-the-art machining centres, automatic lathes, and testing equipment ensure precision down to the micron level.',
   },
   {
     icon: Target,
     title: 'Precision Engineering',
-    description: 'With tolerances as tight as ±0.01mm, our products meet the most demanding specifications across industries including oil & gas, marine, and defense.',
+    description: 'With tolerances as tight as ±0.01mm, our products meet the most demanding specifications across industries',
   },
   {
     icon: Zap,
@@ -52,23 +52,24 @@ const values = [
   {
     icon: Globe,
     title: 'Global Reach',
-    description: 'Supplying to distributors, OEMs, and EPC contractors in over 50 countries, we have established a truly global footprint from Jamnagar.',
+    description: 'Supplying to distributors, OEMs, and EPC contractors across the india, Our goal is to establish a truly global footprint from Jamnagar.',
   },
 ]
 
 const certifications = [
   'ISO 9001:2015 — Quality Management System',
-  'CE Marking — European Conformity',
-  'RoHS Compliant — Restriction of Hazardous Substances',
-  'ATEX Certified — Explosive Atmospheres',
-  'IECEx Certified — International Electrotechnical Commission',
+  'GST Registered Certification — India',
+  'Trademark Certification'
+  // 'RoHS Compliant — Restriction of Hazardous Substances',
+  // 'ATEX Certified — Explosive Atmospheres',
+  // 'IECEx Certified — International Electrotechnical Commission',
 ]
 
 const stats = [
-  { value: '33+', label: 'Years of Experience', icon: Award },
-  { value: '2000+', label: 'Product Variants', icon: Factory },
-  { value: '100+', label: 'Skilled Employees', icon: Users },
-  { value: '50+', label: 'Countries Served', icon: Globe },
+  { value: '2+', label: 'Years of Experience', icon: Award },
+  { value: '100+', label: 'Product Variants', icon: Factory },
+  { value: '20+', label: 'Skilled Employees', icon: Users },
+  // { value: '50+', label: 'Countries Served', icon: Globe },
 ]
 
 export default function AboutPage() {
@@ -85,7 +86,7 @@ export default function AboutPage() {
             <div className="max-w-3xl">
               <p className="text-[#EDE8D0] font-semibold text-lg mb-2">Know About Us</p>
               <h1 className="text-4xl md:text-5xl font-bold text-white mb-4 text-balance">
-                Crafting Precision Brass Since 1991
+                Crafting Precision Metal Products Since 2024
               </h1>
               <div className="w-24 h-1 bg-[#EDE8D0] mb-6" />
               <p className="text-gray-300 text-lg leading-relaxed mb-8">
@@ -114,7 +115,7 @@ export default function AboutPage() {
         {/* Stats Bar */}
         <section className="bg-[#1a3a2a] py-8">
           <div className="container mx-auto px-4">
-            <div className="grid grid-cols-2 md:grid-cols-4 gap-6">
+            <div className="grid grid-cols-2 md:grid-cols-3 gap-6">
               {stats.map((stat, i) => (
                 <div key={i} className="flex items-center gap-4">
                   <div className="w-12 h-12 bg-[#EDE8D0]/20 rounded-lg flex items-center justify-center flex-shrink-0">
@@ -135,31 +136,23 @@ export default function AboutPage() {
           <div className="container mx-auto px-4">
             <div className="grid lg:grid-cols-2 gap-16 items-center">
               <div>
-                <p className="text-[#EDE8D0] font-semibold text-lg mb-2">Our Story</p>
+                <p className="text-gray-700 font-semibold text-lg mb-2">Our Story</p>
                 <h2 className="text-3xl md:text-4xl font-bold text-[#1a3a2a] mb-4 text-balance">Who We Are</h2>
-                <div className="w-24 h-1 bg-[#EDE8D0] mb-6" />
+                <div className="w-24 h-1 bg-gray-700 mb-6" />
                 <p className="text-gray-600 leading-relaxed mb-5">
-                  Rudra Brass Industries is a prominent manufacturer and exporter specialising in high-quality 
-                  brass cable glands and electrical accessories for a wide range of industrial applications. 
-                  Founded in 1991 in the brass capital of India — Jamnagar, Gujarat — we bring over 33 years 
-                  of deep expertise in brass casting and precision machining.
-                </p>
-                <p className="text-gray-600 leading-relaxed mb-5">
-                  Since our expansion into manufacturing in 2004, we have grown into a full-service production 
-                  facility equipped with CNC machining centres, automatic lathes, and state-of-the-art quality 
-                  testing equipment. Our facility spans over 10,000 sq. ft. and employs more than 100 skilled 
-                  engineers, machinists, and quality professionals.
+                  Rudra Metal is a prominent manufacturer and supplier specialising in high-quality 
+                  metal products and  accessories for a wide range of industrial applications. 
+                  Founded in 2024 in the brass capital of India — Jamnagar, Gujarat — we bring over 2 years 
+                  of deep expertise in metal products casting and precision machining.
                 </p>
                 <p className="text-gray-600 leading-relaxed mb-8">
-                  Today, Rudra Brass Industries supplies to distributors, OEMs, and EPC contractors in 
-                  more than 50 countries, with a product catalogue of over 2000 variants covering cable glands, 
-                  accessories, lugs, connectors, and earthing solutions.
+                  Today, Rudra Metal supplies to distributors, OEMs, and EPC contractors
+                  within India, with a product catalogue of over 100 variants covering Hardware Products, Industrial Products and many more Accessories.
                 </p>
                 <ul className="space-y-3">
                   {[
                     'ISO 9001:2015 certified quality management',
                     'In-house R&D and custom product development',
-                    'Exports to Europe, Americas, Middle East & Asia',
                     'Dedicated after-sales technical support',
                   ].map((point, i) => (
                     <li key={i} className="flex items-start gap-3">
@@ -179,7 +172,7 @@ export default function AboutPage() {
                   />
                 </div>
                 <div className="absolute -bottom-6 -left-6 bg-[#1a3a2a] text-white p-6 rounded-xl shadow-xl">
-                  <p className="text-4xl font-bold text-[#EDE8D0]">1991</p>
+                  <p className="text-4xl font-bold text-[#EDE8D0]">2024</p>
                   <p className="text-sm font-medium text-gray-300">Established in Jamnagar</p>
                 </div>
                 <div className="absolute -top-4 -right-4 w-24 h-24 border-4 border-[#EDE8D0] rounded-xl opacity-40" />
@@ -214,7 +207,7 @@ export default function AboutPage() {
         </section>
 
         {/* Journey / Timeline */}
-        <section className="py-20 bg-white">
+        {/* <section className="py-20 bg-white">
           <div className="container mx-auto px-4">
             <div className="text-center mb-14">
               <p className="text-[#1a3a2a] font-semibold text-lg mb-2">Our History</p>
@@ -224,7 +217,6 @@ export default function AboutPage() {
               <div className="w-24 h-1 bg-[#1a3a2a] mx-auto" />
             </div>
             <div className="relative max-w-4xl mx-auto">
-              {/* Vertical line */}
               <div className="absolute left-1/2 -translate-x-1/2 top-0 bottom-0 w-0.5 bg-[#1a3a2a]/10 hidden md:block" />
               <div className="space-y-10">
                 {milestones.map((m, i) => (
@@ -239,7 +231,6 @@ export default function AboutPage() {
                         <p className="text-gray-600 text-sm leading-relaxed">{m.desc}</p>
                       </div>
                     </div>
-                    {/* Centre dot */}
                     <div className="w-5 h-5 rounded-full bg-[#1a3a2a] border-4 border-white shadow-md flex-shrink-0 z-10 hidden md:block" />
                     <div className="flex-1 hidden md:block" />
                   </div>
@@ -247,7 +238,7 @@ export default function AboutPage() {
               </div>
             </div>
           </div>
-        </section>
+        </section> */}
 
         {/* Team & Quality */}
         <section className="py-20 bg-[#f8f9fa]">
@@ -264,7 +255,7 @@ export default function AboutPage() {
                   <Image src="/images/about/certificates.jpg" alt="Certifications" width={400} height={400} className="w-full h-full object-cover" />
                 </div>
                 <div className="aspect-square rounded-xl bg-[#1a3a2a] flex flex-col items-center justify-center p-6 shadow-lg">
-                  <p className="text-5xl font-bold text-[#EDE8D0]">100+</p>
+                  <p className="text-5xl font-bold text-[#EDE8D0]">20+</p>
                   <p className="text-white font-semibold text-center mt-2 text-sm">Skilled Engineers & Machinists</p>
                 </div>
               </div>

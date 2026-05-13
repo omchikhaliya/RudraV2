@@ -24,7 +24,7 @@ const benefits = [
     icon: Truck,
     title: 'Reliable On-Time Delivery',
     description: 'We maintain a large ready stock of standard products and work with trusted logistics partners globally to ensure your orders arrive on schedule, every time.',
-    points: ['Ready stock for standard items', 'Express dispatch within 24 hours', 'Global freight partnerships'],
+    points: ['Ready stock for standard items', 'Express dispatch within 24 hours'],
   },
   {
     icon: DollarSign,
@@ -40,9 +40,9 @@ const benefits = [
   },
   {
     icon: Globe,
-    title: 'Proven Global Track Record',
-    description: 'Trusted by distributors, system integrators, and EPC contractors in over 50 countries, we have the experience and documentation to meet international import and compliance requirements.',
-    points: ['50+ countries export experience', 'Country-specific compliance docs', 'Multi-language technical support'],
+    title: 'Strong Presence Across India',
+    description: 'Trusted by distributors, system integrators, and EPC contractors across India, we understand regional industry requirements and provide reliable support tailored to the Indian market.',
+    points: ['Pan-India project experience', 'Compliance with Indian industry standards', 'Dedicated regional technical support'],
   },
   {
     icon: Headphones,
@@ -57,37 +57,35 @@ const comparisons = [
   { feature: 'Custom Product Development', us: true, others: false },
   { feature: 'In-house Tooling & R&D', us: true, others: false },
   { feature: 'Ready Stock Available', us: true, others: true },
-  { feature: 'ATEX / IECEx Certified Products', us: true, others: false },
-  { feature: 'Export to 50+ Countries', us: true, others: false },
   { feature: 'Technical Support Team', us: true, others: true },
   { feature: 'Competitive Pricing', us: true, others: true },
 ]
 
 const testimonials = [
   {
-    name: 'James Thornton',
-    company: 'EPC Contractor, UK',
-    review: 'We have sourced cable glands from Rudra for over 8 years. Their quality is consistently excellent, and their ability to supply custom ATEX-certified glands at competitive prices is unmatched.',
+    name: 'Bhautik Ramoliya',
+    company: 'Kanaiya Enterprise, India',
+    review: 'We have sourced F-Brackets from Rudra for over 1.5 years. Their quality is consistently excellent, and their ability to supply product at competitive prices is unmatched.',
     rating: 5,
   },
   {
-    name: 'Ahmed Al-Rashid',
-    company: 'Industrial Distributor, UAE',
-    review: 'Fast delivery, accurate documentation, and a product range that covers everything we need. Rudra is our go-to supplier for all brass cable gland requirements.',
+    name: 'Jeel Patel',
+    company: 'Khodal Exports, India',
+    review: 'Fast delivery, accurate documentation, and a product range that covers everything we need. Rudra is our go-to supplier for all type of Tower Bolt requirements.',
     rating: 5,
   },
   {
-    name: 'Lars Hoffmann',
-    company: 'Automation Engineer, Germany',
-    review: 'The precision on Rudra\'s CNC-machined cable glands is impressive. Tight tolerances, good surface finish, and fully compliant with EN50262 standard.',
+    name: 'Soham Ghadiya',
+    company: 'Om Enterprise, India',
+    review: 'The precision on Rudra\'s products is impressive. Tight tolerances and good surface finish.',
     rating: 5,
   },
 ]
 
 const stats = [
-  { value: '33+', label: 'Years of Expertise' },
-  { value: '2000+', label: 'Product Variants' },
-  { value: '50+', label: 'Countries Served' },
+  { value: '2+', label: 'Years of Expertise' },
+  { value: '100+', label: 'Product Variants' },
+  // { value: '50+', label: 'Countries Served' },
   { value: '99%', label: 'On-Time Delivery Rate' },
 ]
 
@@ -139,8 +137,8 @@ export default function WhyChooseUsPage() {
               </h1>
               <div className="w-24 h-1 bg-[#EDE8D0] mb-6" />
               <p className="text-gray-300 text-lg leading-relaxed mb-8">
-                For over 33 years, Rudra Brass Industries has been the trusted choice for procurement 
-                managers, engineers, and distributors worldwide. Here is why thousands of customers 
+                For over 2 years, Rudra Metal has been the trusted choice for procurement 
+                managers, engineers, and distributors across india. Here is why hundreds of customers 
                 keep coming back.
               </p>
               <div className="flex flex-wrap gap-4">
@@ -164,7 +162,7 @@ export default function WhyChooseUsPage() {
         {/* Stats Bar */}
         <section className="bg-[#1a3a2a] py-8">
           <div className="container mx-auto px-4">
-            <div className="grid grid-cols-2 md:grid-cols-4 gap-6 text-center">
+            <div className="grid grid-cols-2 md:grid-cols-3 gap-6 text-center">
               {stats.map((s, i) => (
                 <div key={i}>
                   <p className="text-3xl font-bold text-[#EDE8D0]">
@@ -225,7 +223,7 @@ export default function WhyChooseUsPage() {
             <div className="max-w-3xl mx-auto bg-white rounded-2xl shadow-lg overflow-hidden">
               <div className="grid grid-cols-3 bg-[#1a3a2a] text-white">
                 <div className="p-4 font-semibold">Feature</div>
-                <div className="p-4 font-semibold text-center text-[#EDE8D0]">Rudra Brass</div>
+                <div className="p-4 font-semibold text-center text-[#EDE8D0]">Rudra Metal</div>
                 <div className="p-4 font-semibold text-center text-gray-400">Others</div>
               </div>
               {comparisons.map((row, i) => (
@@ -241,7 +239,7 @@ export default function WhyChooseUsPage() {
                   </div>
                   <div className="p-4 text-center">
                     {row.others
-                      ? <CheckCircle className="w-5 h-5 text-green-400 mx-auto" />
+                      ? <CheckCircle className="w-5 h-5 text-[#1a3a2a] mx-auto" />
                       : <span className="text-gray-300 text-xl font-bold">—</span>}
                   </div>
                 </div>
@@ -291,7 +289,7 @@ export default function WhyChooseUsPage() {
               Experience the Rudra Difference Today
             </h2>
             <p className="text-gray-300 text-lg mb-8 max-w-2xl mx-auto">
-              Join thousands of satisfied customers around the world. Request a quote or browse 
+              Join hundreds of satisfied customers around the india. Request a quote or browse 
               our complete product catalogue.
             </p>
             <div className="flex flex-wrap justify-center gap-4">

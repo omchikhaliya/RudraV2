@@ -88,7 +88,7 @@ export default function ProductsContent() {
         <div className="absolute inset-0 bg-[#1a3a2a]/80" />
         <div className="absolute inset-0 flex flex-col items-center justify-center text-center px-4">
           <p className="text-[#EDE8D0] font-semibold text-sm uppercase tracking-widest mb-2">
-            Rudra Brass Industries
+            Rudra Metal
           </p>
           <h1 className="text-4xl md:text-5xl font-bold text-white mb-4">Our Products</h1>
           <div className="flex items-center gap-2 text-white/70 text-sm">

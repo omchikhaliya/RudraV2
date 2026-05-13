@@ -283,7 +283,7 @@ export default function HeroVideo() {
             >
               {/* <div className="h-px w-10 bg-[#EDE8D0]" /> */}
               <span className="text-[#EDE8D0] text-sm font-semibold uppercase tracking-widest">
-                Established 1991 &bull; Jamnagar, Gujarat
+                Established 2024 &bull; Jamnagar, Gujarat
               </span>
             </div>
 
@@ -299,8 +299,8 @@ export default function HeroVideo() {
             <p
               className={`text-lg md:text-xl text-gray-200 leading-relaxed mb-8 transition-all duration-700 delay-200 ${isLoaded ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-4'}`}
             >
-              Rudra Brass Industries manufactures over 2,000 variants of brass cable glands,
-              earthing parts, and connectors — trusted by industries across 40+ countries.
+              Rudra Metal manufactures and supplies over 100+ variants of brass and metal products
+              — trusted by industries across india.
             </p>
 
             {/* Stats strip */}
@@ -308,9 +308,9 @@ export default function HeroVideo() {
               className={`flex flex-wrap gap-6 mb-10 transition-all duration-700 delay-300 ${isLoaded ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-4'}`}
             >
               {[
-                { value: '33+', label: 'Years of Excellence' },
-                { value: '2000+', label: 'Product Variants' },
-                { value: '40+', label: 'Countries Served' },
+                { value: '2+', label: 'Years of Excellence' },
+                { value: '100+', label: 'Product Variants' },
+                // { value: '40+', label: 'Countries Served' },
               ].map((stat) => (
                 <div key={stat.label} className="flex items-center gap-3">
                   <div className="h-10 w-px bg-[#EDE8D0]" />

@@ -48,6 +48,11 @@ export default function Header() {
               <Phone className="w-4 h-4" />
               +91 92748 22527
             </a>
+
+            <a href="tel:+919737158755" className="flex items-center gap-2 hover:text-gray-300 transition-colors">
+              <Phone className="w-4 h-4" />
+              +91 97371 58755
+            </a>
           </div>
           <a href="mailto:info@rudrabrassindustries.com" className="flex items-center gap-2 hover:text-gray-300 transition-colors">
             <Mail className="w-4 h-4" />

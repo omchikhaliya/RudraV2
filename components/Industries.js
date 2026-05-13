@@ -28,30 +28,11 @@ import {
 } from 'lucide-react'
 
 const industries = [
-  { icon: Car, name: 'Automotive Industries' },
-  { icon: Factory, name: 'Textiles Industries' },
-  { icon: Radio, name: 'Telecom Industries' },
-  { icon: Train, name: 'Railway Industries' },
-  { icon: Plane, name: 'Aerospace and Marine Industries' },
-  { icon: Fuel, name: 'Oil & Gas Exploration' },
-  { icon: AlertTriangle, name: 'Hazardous Environment' },
-  { icon: HardHat, name: 'Construction Tools & Equipment' },
-  { icon: Tractor, name: 'Agriculture & Heavy Equipment' },
-  { icon: Stethoscope, name: 'Medical Equipment' },
-  { icon: Plug, name: 'Electrical Wiring Accessories' },
+  // { icon: Tractor, name: 'Agriculture & Heavy Equipment' },
   { icon: Settings, name: 'Industrial Assembly' },
-  { icon: Package, name: 'Plastic Rubber Moulding' },
-  { icon: Droplets, name: 'Water Valve and Piping' },
   { icon: Bath, name: 'Sanitary and Plumbing' },
   { icon: Home, name: 'Home Appliances' },
-  { icon: Gauge, name: 'Hydraulic Hose & Pneumatic' },
-  { icon: Flame, name: 'Fire Prevention' },
-  { icon: Wind, name: 'Heat & Ventilation' },
-  { icon: Cpu, name: 'Electronics, PCB Circuit Boards' },
   { icon: Cable, name: 'Cable Accessories' },
-  { icon: Waves, name: 'Water Treatment Plants' },
-  { icon: Zap, name: 'Lightning Protection' },
-  { icon: Droplet, name: 'LPG & CO2 Gas Equipment' },
 ]
 
 export default function Industries() {
@@ -68,7 +49,7 @@ export default function Industries() {
         </div>
 
         {/* Industries Grid */}
-        <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-4">
+        <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-4 gap-4">
           {industries.map((industry, index) => (
             <div
               key={index}

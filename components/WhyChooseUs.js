@@ -6,10 +6,10 @@ import Image from 'next/image'
 import { ChevronRight, Shield, Truck, DollarSign, Users } from 'lucide-react'
 
 const stats = [
-  { value: 33, suffix: '+', label: 'Years Experience' },
-  { value: 2000, suffix: '+', label: 'Products Range' },
-  { value: 100, suffix: '+', label: 'Expert Workers' },
-  { value: 50, suffix: '+', label: 'Countries Served' },
+  { value: 2, suffix: '+', label: 'Years Experience' },
+  { value: 100, suffix: '+', label: 'Products Range' },
+  { value: 20, suffix: '+', label: 'Expert Workers' },
+  // { value: 50, suffix: '+', label: 'Countries Served' },
 ]
 
 const benefits = [
@@ -102,14 +102,14 @@ export default function WhyChooseUs() {
           {/* Left Content */}
           <div>
             <p className="text-gray-600 mb-6 leading-relaxed">
-              At Rudra Brass Industries, we take pride in being a trusted manufacturer and exporter of 
-              high-quality brass cable glands for global markets. With decades of experience and a 
+              At Rudra Metal, we take pride in being a trusted manufacturer and supplier of 
+              high-quality metal products for global markets. With a years of experience and a 
               commitment to excellence, we ensure our products meet the highest standards of durability, 
               safety, and performance.
             </p>
             <p className="text-gray-600 mb-8 leading-relaxed">
-              Our expertise in brass manufacturing, combined with advanced technology and rigorous 
-              quality checks, guarantees precision-engineered cable glands that excel in various 
+              Our expertise in metal products manufacturing and supplying, combined with advanced technology and rigorous 
+              quality checks, guarantees precision-engineered metal products that excel in various 
               industrial applications.
             </p>
 
@@ -158,7 +158,7 @@ export default function WhyChooseUs() {
 
         {/* Stats Section */}
         <div className="bg-[#1a3a2a] rounded-2xl p-8 md:p-12">
-          <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
+          <div className="grid grid-cols-2 md:grid-cols-3 gap-8">
             {stats.map((stat, index) => (
               <div key={index} className="text-center">
                 <p className="text-4xl md:text-5xl font-bold text-[#EDE8D0] mb-2">
