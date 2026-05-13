@@ -161,7 +161,7 @@ export default function Contact() {
                       onChange={handleChange}
                       required
                       className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#EDE8D0] focus:border-transparent transition-all outline-none"
-                      placeholder="John Doe"
+                      placeholder="Rudra Metal"
                     />
                   </div>
                   <div>
@@ -176,7 +176,7 @@ export default function Contact() {
                       onChange={handleChange}
                       required
                       className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#EDE8D0] focus:border-transparent transition-all outline-none"
-                      placeholder="john@example.com"
+                      placeholder="info@rudrametal.in"
                     />
                   </div>
                 </div>
@@ -193,7 +193,7 @@ export default function Contact() {
                       value={formData.phone}
                       onChange={handleChange}
                       className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#EDE8D0] focus:border-transparent transition-all outline-none"
-                      placeholder="+91 98765 43210"
+                      placeholder="+91 92748 22527"
                     />
                   </div>
                   <div>
