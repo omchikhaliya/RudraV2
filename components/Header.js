@@ -25,6 +25,7 @@ export default function Header() {
       name: 'Products',
       href: '/products',
       dropdown: [
+        {name: 'Brass Components', href: '/products?category=brass components'},
         { name: 'Butt Hinges', href: '/products?category=butt-hinges' },
         { name: 'Parlament', href: '/products?category=parlament' },
         { name: 'F-Bracket', href: '/products?category=f-bracket' },

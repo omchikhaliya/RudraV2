@@ -165,7 +165,7 @@ export default function AboutPage() {
               <div className="relative">
                 <div className="aspect-[4/3] rounded-2xl overflow-hidden shadow-2xl">
                   <Image
-                    src="/images/about/factory.jpg"
+                    src="/images/about/factory1.png"
                     alt="Rudra Brass Industries factory floor"
                     fill
                     className="object-cover"

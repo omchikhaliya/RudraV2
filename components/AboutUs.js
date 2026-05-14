@@ -113,7 +113,7 @@ export default function AboutUs() {
               {/* Main Image */}
               <div className="aspect-[4/3] rounded-lg overflow-hidden shadow-2xl">
                 <Image
-                  src="/images/about/factory.jpg"
+                  src="/images/about/factory1.png"
                   alt="Rudra Brass Industries Manufacturing Factory"
                   width={800}
                   height={600}

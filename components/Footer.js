@@ -11,13 +11,13 @@ const quickLinks = [
 ]
 
 const products = [
+  {name: 'Brass Components', href: '/products?category=brass components'},
   { name: 'Butt Hinges', href: '/products?category=butt-hinges' },
   { name: 'Parlament', href: '/products?category=parlament' },
   { name: 'F-Bracket', href: '/products?category=f-bracket' },
   { name: 'Tower Bolt', href: '/products?category=tower bolt' },
   { name: 'Gate Hook', href: '/products?category=gate hook' },
   { name: 'Door Handle', href: '/products?category=door handle' },
-  {name: 'Brass Components', href: '/products?category=others'},
 ]
 
 const socialLinks = [
@@ -27,7 +27,7 @@ const socialLinks = [
   { icon: Instagram, href: 'https://www.instagram.com/rudra__metal?igsh=MTg4cGQ3cTlqNHlneg==', label: 'Instagram' },
 ]
 
-const MAPS_EMBED_URL = "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3688.4174918902995!2d70.05474557462095!3d22.41330687960545!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39576b4998d68ad5%3A0x3fb97fb4ab19ea19!2s383%2C%20Patel%20Chowk%20Rd%2C%20G.I.D.C.%20Phase%202%2C%20GIDC%20Phase-2%2C%20Dared%2C%20Jamnagar%2C%20Gujarat%20361012!5e0!3m2!1sen!2sin!4v1777813385540!5m2!1sen!2sin"
+const MAPS_EMBED_URL = "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3688.399465639675!2d70.05655260000002!3d22.4139858!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39576b9bed9a66a9%3A0x7304409c1e69feb7!2sRudra%20Metal!5e0!3m2!1sen!2sin!4v1778754102462!5m2!1sen!2sin"
 
 export default function Footer() {
   return (

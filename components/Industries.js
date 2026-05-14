@@ -32,7 +32,7 @@ const industries = [
   { icon: Settings, name: 'Industrial Assembly' },
   { icon: Bath, name: 'Sanitary and Plumbing' },
   { icon: Home, name: 'Home Appliances' },
-  { icon: Cable, name: 'Cable Accessories' },
+  { icon: Cable, name: 'Hardware Products' },
 ]
 
 export default function Industries() {

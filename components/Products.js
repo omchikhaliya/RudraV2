@@ -95,7 +95,7 @@ export default function Products() {
                     src={product.image}
                     alt={product.category}
                     fill
-                    className="object-cover group-hover:scale-105 transition-transform duration-500"
+                    className="object-fit group-hover:scale-105 transition-transform duration-500"
                   />
                   <div className="absolute inset-0 bg-[#1a3a2a]/30 group-hover:bg-[#1a3a2a]/10 transition-colors duration-300" />
                 </div>
