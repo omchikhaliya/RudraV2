@@ -19,6 +19,9 @@ export const metadata = {
   title: 'Rudra Metal | Manufacturer and Supplier of Metal Products & Accessories',
   description: 'Leading manufacturer and supplier of high precision Hardware products, Brass components and Accessories from Jamnagar, Gujarat, India.',
   keywords: 'Hardware Products, Brackets, Hinges, Tower Bolt, Door Handle, Brass components, Brass Items, SS Items, Aluminium Items, Jamnagar',
+  icons: {
+    icon: 'images/header/rudra.png',
+  }
 }
 
 export default function RootLayout({ children }) {
