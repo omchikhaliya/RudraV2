@@ -246,7 +246,7 @@ export default function AboutPage() {
             <div className="grid lg:grid-cols-2 gap-16 items-center">
               <div className="grid grid-cols-2 gap-4">
                 <div className="aspect-square rounded-xl overflow-hidden shadow-lg">
-                  <Image src="/images/about/team.jpg" alt="Our team" width={400} height={400} className="w-full h-full object-cover" />
+                  <Image src="/images/about/people.jpg" alt="Our team" width={400} height={400} className="w-full h-full object-cover" />
                 </div>
                 <div className="aspect-square rounded-xl overflow-hidden shadow-lg mt-8">
                   <Image src="/images/about/quality.jpg" alt="Quality inspection" width={400} height={400} className="w-full h-full object-cover" />

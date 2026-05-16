@@ -46,10 +46,12 @@ function useScrollAnimation() {
 }
 
 // Show 6 featured products (one per category except "All") on the homepage
-const featuredProducts = categories
-  .filter((c) => c.name !== 'All')
-  .map((cat) => products.find((p) => p?.category === cat.name))
-  .filter(Boolean)
+// const featuredProducts = categories
+//   .filter((c) => c.name !== 'All')
+//   .map((cat) => products.find((p) => p?.category === cat.name))
+//   .filter(Boolean)
+
+const featuredCategories = categories.filter((c) => c.name !== 'All')
 
 export default function Products() {
   const { containerRef, visibleItems } = useScrollAnimation()
@@ -72,12 +74,14 @@ export default function Products() {
           ref={containerRef}
           className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 mb-12"
         >
-          {featuredProducts.map((product, index) => {
+          {/* {featuredProducts.map((product, index) => {
             const cat = categories.find((c) => c.name === product.category)
-            const count = products.filter((p) => p.category === product.category).length
+            const count = products.filter((p) => p.category === product.category).length */}
+          {featuredCategories.map((cat, index) => {
+            const count = products.filter((p) => p.category === cat.name).length
             return (
               <Link
-                key={product.id}
+                key={cat.slug}
                 href={`/products?category=${cat.slug}`}
                 data-animate-item
                 data-index={index}
@@ -92,8 +96,8 @@ export default function Products() {
               >
                 <div className="relative aspect-square overflow-hidden bg-gray-50">
                   <Image
-                    src={product.image}
-                    alt={product.category}
+                    src={cat?.image}
+                    alt={cat?.name}
                     fill
                     className="object-fit group-hover:scale-105 transition-transform duration-500"
                   />
@@ -101,7 +105,7 @@ export default function Products() {
                 </div>
                 <div className="p-4">
                   <h3 className="text-sm font-bold text-[#1a3a2a] mb-1 group-hover:text-gray-700 transition-colors leading-snug">
-                    {product.category}
+                    {cat?.name}
                   </h3>
                   <p className="text-xs text-gray-400">{count} products</p>
                 </div>
